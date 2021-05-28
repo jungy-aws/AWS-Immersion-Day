@@ -84,7 +84,7 @@
 
 * Check your name of EKS cluster (from CloudFormation output or EKS console (service search -> EKS)) - you provided this name in Step3 CloudFormation creation.
 
-* Config kubeconfig with EKS CLI
+* Config kubeconfig with EKS CLI (*please note that, you have to use your EKS name as guided in above line, check your EKS cluster name you created first*)
   ````
   aws eks update-kubeconfig --name=eks-my-first-stack
   ````
